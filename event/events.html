@@ -11,24 +11,14 @@
 <body>
     <h1 onclick="alert('Have a relax')">Event Click Explore</h1>
     <button onclick="console.log(7)">Click Me</button>
-
     <button onclick="document.body.style.backgroundColor='yellow'">Click Me: Yellow</button>
-
     <button onclick="makeRed()">Click Me: Red</button>
-
     <button id="make-green">Click Me: Green</button>
-
-    <script>
-        function makeRed() {
-            document.body.style.backgroundColor = "red";
-        }
-
-        const greenButton = document.getElementById('make-green');
-        greenButton.onclick = makeGreen;
-        function makeGreen() {
-            document.body.style.backgroundColor = 'green';
-        }
-    </script>
+    <button id="make-blue">Click Me: Blue</button>
+    <button id="make-gray">Click Me: Gray</button>
+    <button id="make-hotpink">Click Me: Hot Pink</button>
+    <button id="make-lightblue">Click Me: Light Blue</button>
+    <script src="event.js"></script>
 </body>
 
 </html>
